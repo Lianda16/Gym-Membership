@@ -1,0 +1,108 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('images/blurry.jpg') no-repeat center center; 
+    background-size:cover;
+   
+    background-position: center;
+}
+
+.order-summary {
+    background: rgba(255, 255, 255, 0.9); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 500px;
+    height:300px;
+    position: relative;
+    background-image: url('images/realpeople.jpg'); 
+    background-size: cover;
+
+    background-position: center;
+    
+}
+
+.header {
+    position: relative;
+}
+
+.header h2 {
+    margin: 20px 0 10px;
+    color: white;
+}
+
+.header p {
+    font-size: 14px;
+    color: white;
+    margin: 10px 0 20px;
+}
+
+.plan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.plan-info {
+    display: flex;
+    align-items: center;
+}
+
+.plan-type {
+    margin: 0;
+    font-weight: bold;
+    color: red;
+}
+
+.plan-price {
+    margin: 0;
+    color:red;
+}
+
+.change-btn, .primary-btn, .secondary-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.change-btn {
+    background: none;
+    color: red;
+}
+
+.change-btn:hover {
+    color: grey;
+}
+
+.primary-btn {
+    background: #007bff;
+    color: white;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.primary-btn:hover {
+    background: #0056b3;
+}
+
+.secondary-btn {
+    background: white;
+    color: black;
+    width: 100%;
+}
+
+.secondary-btn:hover {
+    color: grey;
+}
+
+
